@@ -1,0 +1,10 @@
+.status-mark {
+    position: absolute;
+    top: calc(100% - 30px);
+    right: 10px;
+    height: 18px;
+}
+
+.btn-toggler:not(:disabled):not(.disabled).active {
+    font-weight: bold;
+}
